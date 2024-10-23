@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Self Study Assignment 1</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+	<link rel="stylesheet" href="style.css"/>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<main>
+
+<!--Navbar-->
+	<nav class="navbar navbar-expand-sm fixed-top bg-dark navbar-dark">
+		<div class="container-fluid bg-dark">
+			<a class="navbar-brand px-4" href="index.html">C&D</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse justify-content-end" id="navbarContent">
+				<ul class="navbar-nav px-sm-2">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#scroll-section1">Promotional</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#scroll-separator">Adopt NOW!</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#Carousel1">Gallery</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#scroll-section2">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+<!--Header-->
+	<div class="container-fluid text-center banner">
+		<div class="color-overlay py-5 text-white align-middle">
+			<h1 class="fw-bold" style="margin-top:60px">Cats & Dogs</h1>
+			<h2 class="fs-6">By: Edison, Natalie & Yuvraj</h2>
+		</div>
+	</div>
+
+<!--Promotional Content-->
+	<div class="mb-4 d-flex section-center row row-cols-2" id="scroll-section1">
+		<div class="container mt-5">
+			<h2 class="promotional_content">Adopt a Pet</h2>
+			<h1 class="fw-bolder fs-1">TODAY!</h1>
+
+			<p class="my-4">Adopting a pet is like inviting a furry bundle of joy into your life! With their quirky personalities and playful antics, they’ll turn every day into an adventure filled with laughter and love. So, why wait? Dive in and let the cuddles begin!</p>
+
+			<a href="https://ontariospca.ca/adopt/view-pets-for-adoption/#/" class="btn peach mt-4">Adopt a Pet!</a>
+		</div>
+
+		<div class="container py-3">
+			<img class="shadow-lg img-fluid mt-5" style="border-radius: 15px" src="https://cdn.pixabay.com/photo/2023/08/18/15/02/dog-8198719_640.jpg" alt="My Dog">
+		</div>
+	</div>
+
+<!--Visual Separator-->
+	<div class="peach" id="scroll-separator">
+		<div class="section-center row py-4">
+			<div class="col-sm-4 my-3">
+				<div class="shadow-sm card text-center">
+					<div class="card-body">
+						<img class="fit-image" src="https://preview.redd.it/awwww-does-anyone-know-what-breed-of-dog-is-this-v0-2pa0aix44l7a1.jpg?auto=webp&s=f159924801eb88e67a9b932aa7ff7dddeaaed719" alt="Milo">
+						<h2 class="card-text py-2">Milo</h2>
+						<a href="#" class="btn peach">Adopt!</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4 my-3">
+				<div class="shadow-sm card text-center">
+					<div class="card-body">
+						<img class="fit-image" src="https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg" alt="White puppy in grass">
+						<h2 class="card-text py-2">Jason</h2>
+						<a href="#" class="btn peach">Adopt!</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4 my-3">
+				<div class="shadow-sm card text-center">
+					<div class="card-body">
+						<img class="fit-image" src="https://images.squarespace-cdn.com/content/v1/607f89e638219e13eee71b1e/1684821560422-SD5V37BAG28BURTLIXUQ/michael-sum-LEpfefQf4rU-unsplash.jpg" alt="White puppy in grass">
+						<h2 class="card-text py-2">Buster</h2>
+						<a href="#" class="btn peach">Adopt!</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!--Carousel-->
+	<div class="container-fluid text-center section-center carousel_text" id="Carousel1">
+		<h1 class="fw-bold">Gallery</h1>
+		<h4>Take a look at all the cute animals we have!</h4>
+	</div>
+
+	<div id="pictures" class="carousel slide section-center pb-2" data-bs-ride="carousel">
+		<!-- Indicators -->
+		<div class="carousel-indicators">
+			<button type="button" data-bs-target="#pictures" data-bs-slide-to="0" class="active"></button>
+			<button type="button" data-bs-target="#pictures" data-bs-slide-to="1"></button>
+			<button type="button" data-bs-target="#pictures" data-bs-slide-to="2"></button>
+		</div>
+
+		<!-- Carousel Content -->
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Cat_August_2010-4.jpg/1200px-Cat_August_2010-4.jpg" alt="Cat1" class="d-block">
+			</div>
+			<div class="carousel-item">
+				<img src="https://sunshine-photo.s3.us-east-2.amazonaws.com/wp-content/uploads/sunshine/2023/01/05235009/Hefe-Lavender-Print-scaled.jpg" alt="Dog1" class="d-block">
+			</div>
+			<div class="carousel-item">
+				<img src="https://www.cdc.gov/healthy-pets/media/images/2024/04/Cat-on-couch.jpg" alt="Cat2" class="d-block">
+			</div>
+		</div>
+
+		<!-- Left and Right Controls -->
+		<button class="carousel-control-prev" type="button" data-bs-target="#pictures" data-bs-slide="prev">
+			<span class="carousel-control-prev-icon"></span>
+		</button>
+		<button class="carousel-control-next" type="button" data-bs-target="#pictures" data-bs-slide="next">
+			<span class="carousel-control-next-icon"></span>
+		</button>
+	</div>
+
+<!--Cards-->
+	<div class="row mt-4 section-center" id="scroll-section2">
+		<div class="col-sm-6 mb-3 mb-sm-0">
+			<div class="card">
+				<img src="https://t4.ftcdn.net/jpg/02/69/47/89/240_F_269478900_EEEXPJa7ohrxraL6L6V2GlmltteALheQ.jpg" class="card-img-top" alt="Adopt a Buddy">
+				<div class="card-body">
+					<h5 class="card-title">Find a Buddy now!</h5>
+					<p class="card-text">Feel like you're ready to adopt; what are you waiting for? </p>
+					<a href="https://ontariospca.ca/adopt/view-pets-for-adoption/#/" class="btn peach">Adopt Now!</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-6">
+			<div class="card">
+				<img src="https://thumbs.dreamstime.com/b/dog-phone-talking-27463356.jpg" class="card-img-bottom" alt="Contact Us">
+				<div class="card-body">
+					<h5 class="card-title"> Anymore Questions or Concerns?</h5>
+					<p class="card-text">Feel free to reach out to us anytime!</p>
+					<a href="https://ontariospca.ca/who-we-are/contact-us/" class="btn peach">Contact Us!</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!--Footer-->
+	<footer class="mt-3 peach">
+		<div class="row p-4 border-top">
+			<div class="col-lg-5 col-sm-4 pt-3">
+				<h2 class="fw-bold"><a class="footer-btn" href="#">C&D</a></h2>
+				<h4 class="fs-6 footer_subheader">Cats & Dogs Co.</h4>
+
+				<ul class="nav justify-content-start">
+					<li class="me-3">
+						<a href="https://www.instagram.com">
+							<i class="bi-instagram footer-icon"></i>
+						</a>
+					</li>
+					<li class="me-3">
+						<a href="https://www.x.com">
+							<i class="bi-twitter-x footer-icon"></i>
+						</a>
+					</li>
+					<li class="me-3">
+						<a href="https://www.youtube.com">
+							<i class="bi-youtube footer-icon"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<!-- Footer Nav -->
+			<div class="col-lg-3 col-sm-4 footer-list pt-3">
+				<h3>NAVIGATION</h3>
+				<ul class="nav list-group">
+					<li class="nav-item">
+						<a class="footer-btn" href="#">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="footer-btn" href="#scroll-section1">Promotional</a>
+					</li>
+					<li class="nav-item">
+						<a class="footer-btn" href="#scroll-separator">Adopt NOW!</a>
+					</li>
+					<li class="nav-item">
+						<a class="footer-btn" href="#Carousel1">Gallery</a>
+					</li>
+					<li class="nav-item">
+						<a class="footer-btn" href="#scroll-section2">Contact</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="col-lg-3 col-sm-4 footer-list pt-3">
+				<h3>MORE</h3>
+				<ul class="nav list-group">
+					<li class="nav-item">
+						<a class="footer-btn" href="#">Our Story</a>
+					</li>
+					<li class="nav-item">
+						<a class="footer-btn" href="#">Donations</a>
+					</li>
+					<li class="nav-item">
+						<a class="footer-btn" href="#">FAQs</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	<div class="container-fluid text-center bottom_footer text-white">
+		<h6>© Cats&Dogs.co, 2024</h6>
+	</div>
+</main>
+
+</html>

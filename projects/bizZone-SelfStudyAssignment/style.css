@@ -1,0 +1,104 @@
+/* Main */
+.section-center{
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.container-fluid{
+    padding-right: 0;
+    padding-left: 0;
+    margin: auto;
+}
+
+.promotional_content {
+    margin-bottom: -0.25rem;
+}
+
+/* Navbar */
+
+/* Header */
+.banner {
+    background-size: cover;
+    background-image: url('https://cdn.wallpapersafari.com/47/27/qpDnuL.jpg');
+}
+.color-overlay {
+    background-color: rgba(0,0,0,50%);
+}
+
+/* Image Cards */
+.fit-image{
+    aspect-ratio: 1/1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.row{
+    width: 100%;
+}
+
+/* Carousel */
+.carousel-inner img {
+    aspect-ratio: 4/3;
+    width: 100%;
+    height: 100%;
+}
+.carousel_text {
+    padding-top: 65px;
+}
+
+.d-block{
+    width:100%;
+}
+
+/* Footer */
+.footer-btn {
+    color: #381e03;
+    text-decoration: none;
+}
+.footer-list{
+    border-top: 2px solid rgba(92, 39, 6, 0.1);
+    margin-top: 2rem;
+    padding-top: 1rem;
+}
+@media (min-width: 575px) {
+    .footer-list{
+        border-top: none;
+        margin-top: 0;
+    }
+}
+
+.footer-icon{
+    font-size: 25px;
+    color: black;
+}
+
+.bottom_footer {
+    padding: 0;
+    background-color: darksalmon;
+    font-size: xx-small;
+}
+
+.footer_subheader {
+    color: #381e03;
+}
+
+.footer-icon {
+    color: #381e03;
+}
+
+/* Colours */
+.peach{
+    background-color: peachpuff;
+}
+
+.card {
+    margin-top: 2px;
+    margin-bottom: 20px;
+}
+
+.card .btn {
+    margin: 10px 5px 10px 5px;
+}
