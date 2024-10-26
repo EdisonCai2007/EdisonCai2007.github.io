@@ -1,0 +1,17 @@
+.section-center{
+    max-width: 90%;
+    margin: 0 auto;
+    width: 90vw;
+}
+
+.card {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+.slides{
+    width: 100%;
+    aspect-ratio: 1.5;
+    border: none;
+}
