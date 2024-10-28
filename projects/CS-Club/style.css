@@ -4,14 +4,18 @@
     width: 90vw;
 }
 
-.card {
-    margin-top: 5px;
-    margin-bottom: 20px;
-    width: 50%;
+.banner{
+    max-width: 100%;
+    aspect-ratio: 3.5;
+    background-size: cover;
+    background-image: url(./assets/banner.png);
+    background-position: center;
+}
+.banner-overlay{
+    aspect-ratio: 3.5;
+    background-color: rgba(0,0,0,70%);
 }
 
 .slides{
-    width: 100%;
     aspect-ratio: 1.5;
-    border: none;
 }
